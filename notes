@@ -1,0 +1,13 @@
+springBootApplication dependency provide us
+1.Enable AutoConfiguration
+2.Component Scanning
+3.Configuration
+
+Three Layer Architecture
+
+controller -> spring MVC (request receve and response from user)
+RestController -> when we use different front end like (React etc.)
+service -> business layer (SERVLET)
+repository 
+
+dispatcher SERVLET
