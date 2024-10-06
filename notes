@@ -11,3 +11,9 @@ service -> business layer (SERVLET)
 repository 
 
 dispatcher SERVLET
+
+Beans -> objects
+
+dependency Injection 
+
+IOC container -> IOC container is used to manage and create objects.
