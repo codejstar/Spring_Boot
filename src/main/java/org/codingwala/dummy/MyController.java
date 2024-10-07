@@ -14,8 +14,9 @@ public class MyController {
     }
 
     @GetMapping("process-form")
-    public String getData() {
-        return "<h1>Process Form</h1>";
+    public String getData(@RequestParam int num1, @RequestParam int num2) {
+        int res = num1 + num2;
+        return String.valueOf(res);
     }
 
 }
